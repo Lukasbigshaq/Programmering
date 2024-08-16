@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    left: -100vw;
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items: center;
+    transition: 0.6s all ease-in-out;
+
+}
+
+.visible{
+    left: 0;
+
+}
+
+.box{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    place-items: center;
+    border: 1px solid white;
+}
+
+#imagebox{
+    background-image: url(./assets/wenhao-ji-Y8eTCMULhpI-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#page1{
+    background-color: lightseagreen;
+}
+
+#page2{
+    background-color: blueviolet;
+}
+
+h1{
+    font-family: Raleway;
+    color: hotpink
+}
+
+#page3{
+    background-color: lightskyblue;
+
+}
+
+#page4{
+    background-color: darkkhaki;
+}
