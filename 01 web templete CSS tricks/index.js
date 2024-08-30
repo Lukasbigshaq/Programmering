@@ -1,11 +1,20 @@
 //alert('Hej Simon du er fed')
 
-let currentPage = 1 
+let currentPage = 4
+let colors = ['red', 'blue', 'green', 'lightcyan', 'orange', 'lightblue', 'violet']
 
 let pages //array med alle elemtner med class = page
 function setup(){
     select('#page'+ currentPage). addClass('visible')
  pages = selectAll('.page') 
+
+    //lav en masse div'er vi kommer 
+    for(c of colors){
+        //console.log(c)
+        let div = createDiv()
+        div.style('background-color', c)
+        select('#page3').child(div)
+    }
 
 }
 

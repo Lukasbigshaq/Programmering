@@ -29,6 +29,26 @@
     display: grid;
     place-items: center;
     border: 1px solid white;
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.fixed{
+    position: fixed;
+    top: 2rem; 
+    left: 2rem;
+    color: palevioletred;
+    font-size: 4rem;
+    font-variant: small-caps;
+    text-shadow: 12px 12px crimson;
+
 }
 
 #imagebox{
@@ -36,7 +56,15 @@
     background-size: cover;
     background-position: center center;
 }
-
+.halfbox{
+    grid-template-columns: 1fr 1fr;
+}
+#rightimage{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/tim-oun-0Og_pvK5I4Q-unsplash.jpg);
+    background-size: cover;
+}
 
 #page1{
     background-color: lightseagreen;
@@ -52,10 +80,17 @@ h1{
 }
 
 #page3{
-    background-color: lightskyblue;
+    background-color: lightskyblue; 
+    grid-template-columns: 4fr 2fr 1fr;
+
 
 }
+#page3 div{
+    width:100%;
+    height:100%;
 
+
+}
 #page4{
     background-color: darkkhaki;
 }
