@@ -79,12 +79,12 @@ header.hidden:hover .menuitem{
 
 
 #page1{
-    background-color: lightskyblue;
+    background-color: red;
     grid-template-columns: 1fr 3fr;
 }
 
 #page1 .left{
-    background-color:whitesmoke;
+    background-color:rgb(200, 170, 20);
     width:100%;
     height:100%;
     display:grid;
@@ -94,7 +94,7 @@ header.hidden:hover .menuitem{
 #image1 {
 width: 100%;
 height: 100%;
-background-image: url(assets 2/Championsleaguetrophy.jpeg);
+background-image: url('./assets2/Manchester\ Starboy.jpeg')
 
 } 
 
@@ -121,20 +121,50 @@ background-image: url(assets 2/Championsleaguetrophy.jpeg);
     grid-template-columns: 2fr 5fr 3fr;
 }
 
-#image1{
-    background-image: url(./assets/matt-hardy-6ArTTluciuA-unsplash.jpg);
-    background-size: cover;
+#image2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets2/Championsleaguetrophy\ .jpeg'); 
 }
+#image3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets2/Premier\ league\ trofæ\ .jpeg'); 
+}
+#images4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets2/Europa\ league\ trophy\ .jpeg'); 
+}
+
+
+
 
 #page3{
-    background-color: lightcyan;
-}
+    background-color: lightcyan;  
+    grid-template-columns: 3fr 7fr;
 
+}
+#page2 .left{
+    width:100%;
+    height:100%;
+    display:grid;
+    place-items:center;
+    padding:2rem;
+    background-color:whitesmoke;
+    font-size:1.5rem;
+} 
+#page3 .right{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-columns: 2fr 5fr 3fr;
+}
 #page4{
     background-color: lightsalmon;
 }
 
 h1{
     font-family: Raleway;
-    color:hotpink;
+    color: rgb(160, 20, 10)
 }
