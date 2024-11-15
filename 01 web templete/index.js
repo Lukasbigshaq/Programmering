@@ -6,7 +6,13 @@ let pages //array med alle elemtner med class = page
 function setup(){
     
  pages = selectAll('.page') 
-
+    setInterval( ()=> {
+        let hourZero = minute() < 10 ? "0" : "" 
+        let minuteZero = minute() < 10 ? "0" : "" 
+        select('#timer_hours').html(hourZero + hour())
+        select('#timer_minutes').html(minuteZero + minute())
+        select('#timer_seconds').html(second())
+    }, 1000)
 }
 
 function ShiftPage(num){
