@@ -1,6 +1,6 @@
 //alert('Hej Simon du er fed')
 
-let currentPage = 4
+let currentPage = 1
 let colors = ['red', 'blue', 'green', 'lightcyan', 'orange', 'lightblue', 'violet']
 
 let pages //array med alle elemtner med class = page
